@@ -11,13 +11,20 @@ $(document).ready(function() {
     $("#product-management").toggle();
     $(".product-management-icon").toggle();
   });
-    
-
-  
-
-
+ //form-input
+    $("#submit").click(function() {
+      var Name= $("#name").val();
+      var Email= $("#email").val();
+      var Comment= $("comment");
+      if (Name === '' || Email=== '') {
+        alert("Kindly fill in all your details.");
+      }
+      else {
+        alert("Hello " + Name + "thank you for contacting us.");
+      }
+    });
 //hover effect
   $(".portfolio1").hover(function() {
     $(this).find(".project-black").toggle(400);
-  })
+  });
 });

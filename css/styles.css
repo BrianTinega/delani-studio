@@ -41,4 +41,8 @@ h1 {
 }
 .form-control {
   background:transparent;
+
+}
+#what-we-do {
+  display: block;
 }
