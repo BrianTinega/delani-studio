@@ -1,12 +1,18 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable1").click(function() {
     $("#design").toggle();
     $("#design-icon").toggle();
   });
-  $(".clickable").click(function() {
+  $(".clickable2").click(function() {
     $("#development").toggle();
     $("#development-icon").toggle();
   });
+  $(".clickable3").click(function() {
+    $("#product-management").toggle();
+    $(".product-management-icon").toggle();
+  });
+    
+
   
 
 
