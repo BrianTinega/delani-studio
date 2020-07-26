@@ -18,6 +18,6 @@ $(document).ready(function() {
 
 //hover effect
   $(".portfolio1").hover(function() {
-    $(this).find(".project-6lack").toggle(400);
+    $(this).find(".project-black").toggle(400);
   })
 });

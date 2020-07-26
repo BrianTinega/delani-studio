@@ -11,9 +11,9 @@
   text-align: justify;
 }
 
-  footer {
-    display: flex;
-    justify-content: center;
+footer {
+  display: flex;
+  justify-content: center;
 }
 p {
   text-align: center;
@@ -32,9 +32,13 @@ h1 {
 #product-management {
   display: none;
 }
-.project-6lack {
+.project-black {
   display:none;
-  opacity: 0.5;
-  ;
-
+ 
+}
+.portfolio1 {
+  text-align: center;
+}
+.form-control {
+  background:transparent;
 }
