@@ -23,11 +23,8 @@ h1 {
 }
 #design {
   display: none;
-  cursor: pointer;
-  color: #161718;
-}
- .design-icon {
-  cursor: pointer;
+  
+
 }
 #development {
   display: none;
