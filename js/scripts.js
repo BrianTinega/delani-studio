@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $("#image").click(function() {
+  $("#design-icon").click(function() {
     $("#design").toggle();
-    $("#image").toggle();
+    $("#design-icon").toggle();
   });
   $("#development-icon").click(function() {
     $("#development").toggle();
