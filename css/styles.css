@@ -24,6 +24,7 @@ h1 {
 #design {
   display: none;
   
+  
 
 }
 #development {
@@ -45,4 +46,7 @@ h1 {
 }
 #what-we-do {
   display: block;
+}
+.logo {
+  color: white;
 }
