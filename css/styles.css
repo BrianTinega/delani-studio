@@ -24,9 +24,9 @@ h1 {
 #design {
   display: none;
   cursor: pointer;
-  color: #0088cc;
+  color: #161718;
 }
-#design-icon {
+.image {
   cursor: pointer;
   color: #0088cc;
   }
