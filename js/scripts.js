@@ -3,4 +3,9 @@ $(document).ready(function() {
     $("#design").toggle();
     $("#image").toggle();
   });
+  $("#development-icon").click(function() {
+    $("#development").toggle();
+    $("#development-icon").toggle();
+  });
+  
 });
