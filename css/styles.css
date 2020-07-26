@@ -21,3 +21,6 @@ p {
 h1 {
   text-align: center;
 }
+#design {
+  display: none;
+}
