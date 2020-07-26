@@ -3,9 +3,15 @@ $(document).ready(function() {
     $("#design").toggle();
     $("#design-icon").toggle();
   });
-  $("#development-icon").click(function() {
+  $(".clickable").click(function() {
     $("#development").toggle();
     $("#development-icon").toggle();
   });
   
+
+
+//hover effect
+  $(".portfolio1").hover(function() {
+    $(this).find(".project-6lack").toggle(400);
+  })
 });
