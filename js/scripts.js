@@ -20,7 +20,7 @@ $(document).ready(function() {
         alert("Kindly fill in all your details.");
       }
       else {
-        alert("Hello " + Name + "thank you for contacting us.");
+        alert("Hello " + Name + "thank you for contacting us." + "Your message has been received");
       }
     });
 //hover effect
