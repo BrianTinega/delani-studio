@@ -35,18 +35,152 @@ h1 {
 }
 .project-black {
   display:none;
- 
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 30%;
 }
-.portfolio1 {
-  text-align: center;
+.yellow-sand {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 30%;
+}
+.brave-mask-project {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 30%;
+}
+.project-elena {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 80%;
+}
+.calculator-project {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 30%;
+}
+.the-burned-project {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 80%;
+}
+.project-twiga {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 80%;
+}
+.mighty-ontario {
+  display:none;
+  background-color:white;
+  opacity: 0.3;
+  font-size: 16px;
+  padding: 16px 32px;
+  position:absolute;
+  top: 30%;
+}
+
+
+
+
+.portfolio1.portfolio2.portfolio3.portfolio4 {
+  position:relative;
+}
+.portfolio5.portfolio6.portfolio7.portfolio8 {
+  position:relative;
 }
 .form-control {
   background:transparent;
+  bottom:80%;
+  display: inline-block;
 
 }
 #what-we-do {
   display: block;
 }
-.logo {
+
+.intro {
+  position:absolute;
+  top: 70%;
+  width: 90%;
   color: white;
+  padding-left: 4cm;
+}
+.mouse {
+  margin:auto;
+  bottom:100%;
+  width: 30px;
+}
+.card{
+  padding: 1% 5%;
+  border: white;
+}
+.card-deck {
+  padding: 1% 4%;
+}
+.form-group {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+}
+.last-image {
+  position:relative;
+}
+.form-inline {
+  position: absolute;
+  top: 20%;
+  align-content: center;
+  width: 400px;
+  margin: 5px 100px 50px 35px;
+  padding-top: 5cm;
+  background: transparent;
+}
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 35% 8%;
+  
+}
+.mouse {
+  margin-left: -100;
+  margin-right: auto;
+  display: block;
+}
+#comment {
+  padding:20%;
+  background: transparent;
+}
+#name {
+  background: transparent;
+}
+#email {
+  background: transparent;
 }

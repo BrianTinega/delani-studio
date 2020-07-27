@@ -27,4 +27,25 @@ $(document).ready(function() {
   $(".portfolio1").hover(function() {
     $(this).find(".project-black").toggle(400);
   });
+  $(".portfolio2").hover(function() {
+    $(this).find(".mighty-ontario").toggle(400);
+  });
+  $(".portfolio3").hover(function() {
+    $(this).find(".yellow-sand").toggle(400);
+  });
+  $(".portfolio4").hover(function() {
+    $(this).find(".brave-mask-project").toggle(400);
+  });
+  $(".portfolio5").hover(function() {
+    $(this).find(".project-elena").toggle(400);
+  });
+  $(".portfolio6").hover(function() {
+    $(this).find(".calculator-project").toggle(400);
+  });
+  $(".portfolio7").hover(function() {
+    $(this).find(".the-burned-project").toggle(400);
+  });
+  $(".portfolio8").hover(function() {
+    $(this).find(".project-twiga").toggle(400);
+  });
 });
