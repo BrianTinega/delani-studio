@@ -48,4 +48,5 @@ $(document).ready(function() {
   $(".portfolio8").hover(function() {
     $(this).find(".project-twiga").toggle(400);
   });
+ 
 });
