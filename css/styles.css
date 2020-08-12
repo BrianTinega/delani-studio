@@ -116,6 +116,11 @@ h1 {
   position:relative;
   padding: 1% 4%;
 }
+.card img {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
 .form-control {
   background:transparent;
   bottom:80%;
@@ -151,18 +156,7 @@ h1 {
   align-items: center;
 
 }
-.last-image {
-  position:relative;
-}
-.form-inline {
-  position: absolute;
-  top: 20%;
-  align-content: center;
-  width: 400px;
-  margin: 5px 100px 50px 35px;
-  padding-top: 5cm;
-  background: transparent;
-}
+
 .logo{
   margin-left: auto;
   margin-right: auto;
@@ -175,13 +169,46 @@ h1 {
   margin-right: auto;
   display: block;
 }
-#comment {
-  padding:20%;
+.last-image {
+  position:relative;
+  width: 500px;
+  height:100px;
+  margin-left: 0.5cm;
+  margin-right: 5cm;
+  float: left;
+
+}
+.form-inline {
+  position: absolute;
+  margin-top: -16cm;
+  margin-left: 7cm;
+  align-content: center;
+  margin-bottom: 0.5cm;
   background: transparent;
 }
-#name {
-  background: transparent;
+
+#comment {
+  padding-right: 20cm;
+  padding-bottom: 5cm;
+  margin-left: 1.5cm;
+  margin-top: 0.2cm;
+  background-color: transparent;
 }
 #email {
-  background: transparent;
+  margin-left: 3cm;
+  padding-right: 6cm;
+  background-color: transparent;
+
+}
+#name {
+  margin-left: 2cm;
+  padding-right: 2cm;
+  background-color: transparent;
+  padding-left: 4cm;
+  margin-bottom: 0.5cm;
+}
+#submit {
+  margin-top: -13cm;
+  margin-left: 8cm;
+  
 }

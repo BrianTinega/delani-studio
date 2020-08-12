@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
 //hover effect
   $(".portfolio1").hover(function() {
-    $(this).find(".project-black").toggle(400);
+    $(this).find(".project-black").toggle(100);
   });
   $(".portfolio2").hover(function() {
     $(this).find(".mighty-ontario").toggle(400);
